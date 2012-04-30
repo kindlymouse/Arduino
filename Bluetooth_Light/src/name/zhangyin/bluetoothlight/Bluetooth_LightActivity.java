@@ -1,5 +1,11 @@
 package name.zhangyin.bluetoothlight;
 
+/**
+ * 基于Arduino的Android手机控制的电灯
+ * Android端程序
+ * 
+ * kindlymouse@gmail.com
+ */
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.UUID;
@@ -10,7 +16,6 @@ import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -18,7 +23,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.content.SharedPreferences;
 
 public class Bluetooth_LightActivity extends Activity {
